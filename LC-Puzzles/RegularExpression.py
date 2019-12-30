@@ -32,7 +32,7 @@ if __name__ == '__main__':
     # print(romanToIntSimpler("MCMXCIV"))
     # print(FindLongestCommonPrefix(["flower","flow","flight", 'aavour']))
     print(simplerSolution(["flower", "flowertt", "floweraa"]))
-    # a = [1,2,3,4]
-    s = ['122', '123', '124', '12', '1']
-    for c in zip(*s):
-        print(c)
+    a = [1, 2, 3, 4]
+    s = [4, 5, 6]
+    a.append(s)
+    print(a)
